@@ -1,0 +1,266 @@
+{
+  "_aviso": "Archivo generado por scripts/build.mjs. No editar a mano.",
+  "categorias": [
+    {
+      "id": "panerai",
+      "nombre": "Panerai",
+      "productos": [
+        "panerai-luminor-1950-equation-of-time",
+        "panerai-radiomir-bronzo",
+        "panerai-radiomir-california-3-days"
+      ]
+    },
+    {
+      "id": "rolex",
+      "nombre": "Rolex",
+      "productos": [
+        "rolex-cosmograph-daytona-rolesor",
+        "rolex-datejust-turn-o-graph-thunderbird"
+      ]
+    },
+    {
+      "id": "otras",
+      "nombre": "Otras marcas",
+      "productos": [
+        "tag-heuer-aquaracer-300m-chronograph",
+        "omega-seamaster-planet-ocean-600m",
+        "baume-mercier-classima",
+        "tag-heuer-carrera-muhammad-ali",
+        "longines-dolcevita"
+      ]
+    }
+  ],
+  "productos": [
+    {
+      "id": "panerai-luminor-1950-equation-of-time",
+      "nombre": "Panerai Luminor 1950 · Equation of Time",
+      "precio": 14500000,
+      "foto": "img/productos/panerai-luminor-1950-equation-of-time-1.jpg",
+      "fotos": [
+        "img/productos/panerai-luminor-1950-equation-of-time-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "PAM00670 · 47 mm · esfera azul soleil · cuerda manual 8 días · GMT y ecuación del tiempo.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "Nuevo ingreso",
+      "agotado": false,
+      "mini": "img/_opt/3b3d380196d4-600.webp",
+      "minis": [
+        "img/_opt/7232f0d4628f-600.webp"
+      ]
+    },
+    {
+      "id": "tag-heuer-aquaracer-300m-chronograph",
+      "nombre": "TAG Heuer Aquaracer 300M · Chronograph",
+      "precio": 1200000,
+      "foto": "img/productos/tag-heuer-aquaracer-300m-chronograph-1.jpg",
+      "fotos": [
+        "img/productos/tag-heuer-aquaracer-300m-chronograph-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "Ref. CAF101E · acero · esfera negra · bisel giratorio · cuarzo.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "Nuevo ingreso",
+      "agotado": false,
+      "mini": "img/_opt/60b3950194fd-600.webp",
+      "minis": [
+        "img/_opt/8ac6510837df-600.webp"
+      ]
+    },
+    {
+      "id": "panerai-radiomir-bronzo",
+      "nombre": "Panerai Radiomir Bronzo",
+      "precio": 9800000,
+      "foto": "img/productos/panerai-radiomir-bronzo-1.jpg",
+      "fotos": [
+        "img/productos/panerai-radiomir-bronzo-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "PAM00760 · caja de bronce de 47 mm · esfera verde degradada.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "Nuevo ingreso",
+      "agotado": false,
+      "mini": "img/_opt/3d7d17f3edca-600.webp",
+      "minis": [
+        "img/_opt/14b4c7c6f29e-600.webp"
+      ]
+    },
+    {
+      "id": "omega-seamaster-planet-ocean-600m",
+      "nombre": "Omega Seamaster Planet Ocean 600M",
+      "precio": 3900000,
+      "foto": "img/productos/omega-seamaster-planet-ocean-600m-1.jpg",
+      "fotos": [
+        "img/productos/omega-seamaster-planet-ocean-600m-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "Acero · esfera negra · bisel giratorio · 600 m de resistencia al agua.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "",
+      "agotado": false,
+      "mini": "img/_opt/112148a74c74-600.webp",
+      "minis": [
+        "img/_opt/d09ab967cede-600.webp"
+      ]
+    },
+    {
+      "id": "baume-mercier-classima",
+      "nombre": "Baume & Mercier Classima",
+      "precio": 1100000,
+      "foto": "img/productos/baume-mercier-classima-1.jpg",
+      "fotos": [
+        "img/productos/baume-mercier-classima-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "Esfera plateada guilloché · índices romanos · corazón abierto.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "",
+      "agotado": false,
+      "mini": "img/_opt/c3c82d2a72ab-600.webp",
+      "minis": [
+        "img/_opt/b0041035652b-600.webp"
+      ]
+    },
+    {
+      "id": "panerai-radiomir-california-3-days",
+      "nombre": "Panerai Radiomir California 3 Days",
+      "precio": 8500000,
+      "foto": "img/productos/panerai-radiomir-california-3-days-1.jpg",
+      "fotos": [
+        "img/productos/panerai-radiomir-california-3-days-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "PAM00424 · 47 mm en acero AISI 316L · esfera California.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "",
+      "agotado": false,
+      "mini": "img/_opt/02597bf0aebe-600.webp",
+      "minis": [
+        "img/_opt/0ea655be178d-600.webp"
+      ]
+    },
+    {
+      "id": "rolex-cosmograph-daytona-rolesor",
+      "nombre": "Rolex Cosmograph Daytona · Rolesor",
+      "precio": 16500000,
+      "foto": "img/productos/rolex-cosmograph-daytona-rolesor-1.jpg",
+      "fotos": [
+        "img/productos/rolex-cosmograph-daytona-rolesor-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "Acero Oystersteel y oro amarillo · bisel taquimétrico · brazalete Oyster.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "Más deseado",
+      "agotado": false,
+      "mini": "img/_opt/c0c6cdbf0a24-600.webp",
+      "minis": [
+        "img/_opt/881a00b7ebae-600.webp"
+      ]
+    },
+    {
+      "id": "rolex-datejust-turn-o-graph-thunderbird",
+      "nombre": "Rolex Datejust Turn-O-Graph «Thunderbird»",
+      "precio": 5800000,
+      "foto": "img/productos/rolex-datejust-turn-o-graph-thunderbird-1.jpg",
+      "fotos": [
+        "img/productos/rolex-datejust-turn-o-graph-thunderbird-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "Vintage · esfera plateada · bisel giratorio graduado.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "Vintage",
+      "agotado": false,
+      "mini": "img/_opt/fefb2149bbb1-600.webp",
+      "minis": [
+        "img/_opt/d60c56e97b4e-600.webp"
+      ]
+    },
+    {
+      "id": "tag-heuer-carrera-muhammad-ali",
+      "nombre": "TAG Heuer Carrera · Muhammad Ali",
+      "precio": 2400000,
+      "foto": "img/productos/tag-heuer-carrera-muhammad-ali-1.jpg",
+      "fotos": [
+        "img/productos/tag-heuer-carrera-muhammad-ali-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "Edición especial · esfera negra inspirada en los cronómetros de ring.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "Edición especial",
+      "agotado": false,
+      "mini": "img/_opt/bef280fdccea-600.webp",
+      "minis": [
+        "img/_opt/588d5404ac85-600.webp"
+      ]
+    },
+    {
+      "id": "longines-dolcevita",
+      "nombre": "Longines DolceVita",
+      "precio": 650000,
+      "foto": "img/productos/longines-dolcevita-1.jpg",
+      "fotos": [
+        "img/productos/longines-dolcevita-2.jpg"
+      ],
+      "tallas": [],
+      "descripcion": "Caja rectangular Art Déco · esfera plateada · subdial cuadrado a las 6.",
+      "incluye": [
+        "Reloj",
+        "Caja original",
+        "Documentación original",
+        "Garantía"
+      ],
+      "etiqueta": "",
+      "agotado": false,
+      "mini": "img/_opt/1f05d22e5b09-600.webp",
+      "minis": [
+        "img/_opt/89230c52a825-600.webp"
+      ]
+    }
+  ],
+  "cupones": []
+}

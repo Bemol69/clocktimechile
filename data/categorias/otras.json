@@ -1,0 +1,12 @@
+{
+  "nombre": "Otras marcas",
+  "productos": [
+    "tag-heuer-aquaracer-300m-chronograph",
+    "omega-seamaster-planet-ocean-600m",
+    "baume-mercier-classima",
+    "tag-heuer-carrera-muhammad-ali",
+    "longines-dolcevita"
+  ],
+  "orden": 30,
+  "visible": true
+}

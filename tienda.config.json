@@ -1,0 +1,45 @@
+{
+  "_ayuda": "Datos fijos de la tienda (los define el desarrollador). Contacto y portada van en data/ajustes.json.",
+  "nombre": "Clock Time Chile",
+  "marca_a": "Clock Time",
+  "marca_b": "Chile",
+  "rubro": "Relojes de alta gama y lujo",
+  "schema_tipo": "Store",
+  "seo_titulo": "Relojes de lujo en Concepción | Clock Time Chile",
+  "seo_descripcion": "Compra, venta y consignación de relojes de alta gama: Panerai, Rolex, Omega, TAG Heuer y más. Pago inmediato, garantía y envíos a todo Chile desde Concepción.",
+  "github_repo": "Bemol69/clocktimechile",
+  "site_url": "https://clocktimechile.vercel.app",
+  "google_verificacion": "",
+  "hero": [
+    {
+      "foto": "img/productos/panerai-luminor-1950-equation-of-time-2.jpg",
+      "alt": "Panerai Luminor 1950 Equation of Time con esfera azul"
+    },
+    {
+      "foto": "img/productos/rolex-cosmograph-daytona-rolesor-2.jpg",
+      "alt": "Rolex Cosmograph Daytona Rolesor"
+    },
+    {
+      "foto": "img/productos/panerai-radiomir-bronzo-2.jpg",
+      "alt": "Panerai Radiomir Bronzo con esfera verde"
+    }
+  ],
+  "fuentes": {
+    "titulos": "Bodoni Moda",
+    "texto": "Manrope"
+  },
+  "colores": {
+    "fondo": "#0B1D16",
+    "primario": "#D2A84B",
+    "primario_oscuro": "#A8832E",
+    "primario_claro": "#241C0A",
+    "secundario": "#EFE7D3",
+    "secundario_claro": "#F6F0E1",
+    "acento": "#E9C976",
+    "acento_claro": "#2A2411",
+    "tinta": "#F3ECDB",
+    "tinta_suave": "#A9B5AC",
+    "extra": "#14352A",
+    "dorado": "#D2A84B"
+  }
+}

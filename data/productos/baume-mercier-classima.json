@@ -1,0 +1,20 @@
+{
+  "nombre": "Baume & Mercier Classima",
+  "precio": 1100000,
+  "foto": "/img/productos/baume-mercier-classima-1.jpg",
+  "fotos": [
+    "/img/productos/baume-mercier-classima-2.jpg"
+  ],
+  "descripcion": "Esfera plateada guilloché · índices romanos · corazón abierto.",
+  "tallas": [],
+  "incluye": [
+    "Reloj",
+    "Caja original",
+    "Documentación original",
+    "Garantía"
+  ],
+  "etiqueta": "",
+  "orden": 50,
+  "agotado": false,
+  "visible": true
+}

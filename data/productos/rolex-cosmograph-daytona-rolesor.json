@@ -1,0 +1,20 @@
+{
+  "nombre": "Rolex Cosmograph Daytona · Rolesor",
+  "precio": 16500000,
+  "foto": "/img/productos/rolex-cosmograph-daytona-rolesor-1.jpg",
+  "fotos": [
+    "/img/productos/rolex-cosmograph-daytona-rolesor-2.jpg"
+  ],
+  "descripcion": "Acero Oystersteel y oro amarillo · bisel taquimétrico · brazalete Oyster.",
+  "tallas": [],
+  "incluye": [
+    "Reloj",
+    "Caja original",
+    "Documentación original",
+    "Garantía"
+  ],
+  "etiqueta": "Más deseado",
+  "orden": 70,
+  "agotado": false,
+  "visible": true
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>%%SEO_TITULO%%</title>
+  <meta name="description" content="%%SEO_DESCRIPCION%%">
+  <meta name="theme-color" content="%%COLOR_FONDO%%">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/img/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <!-- SEO:HEAD (lo completa scripts/build.mjs: canonical, Open Graph y datos estructurados) -->
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="%%FUENTES_URL%%" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-truck" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2M15 18H9M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol>
+      <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12M7.5 4.27l9 5.15"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+      <symbol id="i-cash" viewBox="0 0 24 24"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></symbol>
+      <symbol id="i-card" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" rx="2"/><path d="M2 10h20"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></symbol>
+      <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M10 11v6M14 11v6"/></symbol>
+      <symbol id="i-ext" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>
+      <symbol id="i-store" viewBox="0 0 24 24"><path d="M3 9 4.5 4h15L21 9M3 9v11h18V9M3 9h18M9 20v-6h6v6"/></symbol>
+      <symbol id="i-swap" viewBox="0 0 24 24"><path d="M17 3l4 4-4 4M3 7h18M7 21l-4-4 4-4M21 17H3"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a href="#" class="brand" aria-label="%%NOMBRE%%">
+        <img src="img/logo.jpg" alt="Logo %%NOMBRE%%" width="44" height="44">
+        <span>%%MARCA_A%% <em>%%MARCA_B%%</em></span>
+      </a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#coleccion">Colección</a>
+        <a href="#vende">Vende tu reloj</a>
+        <a href="#como">Cómo comprar</a>
+        <a href="#garantia">Garantía</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="nav__actions">
+        <!-- SI:INSTAGRAM --><a class="icon-btn" href="https://www.instagram.com/%%INSTAGRAM%%/" target="_blank" rel="noopener" aria-label="Instagram de %%NOMBRE%%"><svg class="ic"><use href="#i-ig"/></svg></a><!-- /SI:INSTAGRAM -->
+        <button class="bag-btn" type="button" data-open-bag aria-label="Abrir mi reserva">
+          <svg class="ic"><use href="#i-bag"/></svg><span class="bag-btn__label">Reserva</span>
+          <span class="bag-btn__n" id="bagCount" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO: el estuche se abre y muestra el reloj -->
+    <section class="hero">
+      <svg class="hero__bezel" viewBox="0 0 400 400" aria-hidden="true">
+        <circle cx="200" cy="200" r="190" class="bz bz--a"/>
+        <circle cx="200" cy="200" r="176" class="bz bz--b"/>
+        <circle cx="200" cy="200" r="150" class="bz bz--c"/>
+      </svg>
+      <div class="wrap hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow"><span class="dot"></span> Concepción · Biobío · %%ENVIOS%%</p>
+          <h1><span class="h1__a">%%HERO_TITULO%%</span> <em>%%HERO_DESTACADO%%</em></h1>
+          <p class="lead">%%HERO_BAJADA%%</p>
+          <div class="hero__cta">
+            <a href="#coleccion" class="btn btn--gold">Ver la colección <svg class="ic"><use href="#i-arrow"/></svg></a>
+            <a href="#vende" class="btn btn--line">Vende tu reloj</a>
+          </div>
+          <dl class="stats">
+            <div><dt><span data-count="433">433</span></dt><dd>seguidores en Instagram</dd></div>
+            <div><dt><span data-count="12">12</span><small>×</small></dt><dd>cuotas con tarjeta de crédito</dd></div>
+            <div><dt>CL</dt><dd>envíos a todo Chile</dd></div>
+          </dl>
+        </div>
+
+        <div class="stage">
+          <div class="case" id="case">
+            <div class="case__base">
+              <div class="case__cushion">
+                <img src="%%HERO_1%%" alt="%%HERO_1_ALT%%" fetchpriority="high" width="520" height="693">
+              </div>
+              <p class="case__ref"><span>Panerai</span> Luminor 1950 · Equation of Time</p>
+            </div>
+            <div class="case__lid" aria-hidden="true">
+              <div class="case__face">
+                <img src="img/logo.jpg" alt="" width="120" height="120">
+                <span class="case__clasp"></span>
+              </div>
+            </div>
+          </div>
+          <figure class="tag tag--a"><span class="tag__string"></span><img src="%%HERO_2%%" alt="%%HERO_2_ALT%%" loading="lazy"><figcaption>Rolex<br><b>Daytona</b></figcaption></figure>
+          <figure class="tag tag--b"><span class="tag__string"></span><img src="%%HERO_3%%" alt="%%HERO_3_ALT%%" loading="lazy"><figcaption>Panerai<br><b>Bronzo</b></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" style="--dur: %%FRANJA1_SEG%%s"><!-- FRANJA1 --></div>
+    </div>
+
+    <!-- COLECCIÓN -->
+    <section id="coleccion" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Piezas disponibles</p>
+          <h2>La colección</h2>
+          <p class="muted">Cada reloj llega con su caja y su documentación original. Son piezas únicas: si te gusta una, resérvala y la coordinamos por WhatsApp.</p>
+        </div>
+        <div class="catalog-bar">
+          <div class="filters" id="filters" role="tablist" aria-label="Marcas"></div>
+          <div class="toolbar">
+            <span id="count"></span>
+            <label class="sort">
+              <span>Ordenar</span>
+              <select id="sort">
+                <option value="destacados">Más nuevos</option>
+                <option value="precio-asc">Menor precio</option>
+                <option value="precio-desc">Mayor precio</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="grid" id="productGrid"><!-- SEO:PRODUCTOS --></div>
+        <div class="center">
+          <button class="btn btn--line" type="button" data-encargo>¿Buscas otra marca o modelo? Pídelo aquí</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VENDE TU RELOJ -->
+    <section id="vende" class="section section--dark sell">
+      <div class="wrap sell__inner">
+        <div class="sell__text">
+          <p class="eyebrow">Compramos tu reloj</p>
+          <h2>Tasación y <em>pago inmediato</em></h2>
+          <p class="lead">¿Tienes un reloj de alta gama que ya no usas? Envíanos fotos por WhatsApp y te respondemos con una oferta. Si lo prefieres, lo dejamos en consignación y lo vendemos por ti.</p>
+          <ul class="ticks">
+            <li><svg class="ic"><use href="#i-check"/></svg> Pago inmediato y seguro</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> Compra directa o consignación</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> Atendemos desde Concepción, y todo Chile por envío</li>
+          </ul>
+          <a class="btn btn--gold btn--lg" id="sellWa" target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg> Quiero tasar mi reloj</a>
+        </div>
+        <div class="sell__dial" aria-hidden="true">
+          <svg viewBox="0 0 300 300">
+            <circle cx="150" cy="150" r="140" class="dl dl--rim"/>
+            <circle cx="150" cy="150" r="128" class="dl dl--ticks"/>
+            <g class="dl__nums">
+              <text x="150" y="58">12</text><text x="242" y="158">3</text><text x="150" y="258">6</text><text x="58" y="158">9</text>
+            </g>
+            <text x="150" y="108" class="dl__brand">CLOCK TIME</text>
+            <text x="150" y="206" class="dl__sub">CHILE</text>
+            <g class="hand hand--h"><rect x="146" y="82" width="8" height="72" rx="3"/></g>
+            <g class="hand hand--m"><rect x="147.5" y="52" width="5" height="102" rx="2"/></g>
+            <g class="hand hand--s"><rect x="149" y="32" width="2" height="136" rx="1"/><circle cx="150" cy="168" r="6"/></g>
+            <circle cx="150" cy="150" r="8" class="dl__pin"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO COMPRAR -->
+    <section id="como" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Compra, venta y consignación</p>
+          <h2>Cómo trabajamos</h2>
+        </div>
+        <div class="folios">
+          <article class="folio"><span class="folio__n">I</span><span class="tile"><svg class="ic"><use href="#i-bag"/></svg></span><h3>Compra</h3><p>Elige tu reloj, resérvalo y te escribimos por WhatsApp para confirmar la disponibilidad, el precio y la entrega. Pagas con transferencia o tarjeta de crédito hasta en 12 cuotas.</p></article>
+          <article class="folio"><span class="folio__n">II</span><span class="tile"><svg class="ic"><use href="#i-cash"/></svg></span><h3>Venta</h3><p>Compramos tu reloj con pago inmediato. Nos mandas fotos y datos de la pieza, te hacemos una oferta y cerramos de forma segura.</p></article>
+          <article class="folio"><span class="folio__n">III</span><span class="tile"><svg class="ic"><use href="#i-swap"/></svg></span><h3>Consignación</h3><p>Dejas tu reloj con nosotros y lo ofrecemos a nuestros clientes y seguidores. Tú defines el valor y nosotros nos encargamos del resto.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GARANTÍA -->
+    <section id="garantia" class="section section--ivory">
+      <div class="wrap warranty">
+        <div class="seal" aria-hidden="true">
+          <svg viewBox="0 0 220 220">
+            <defs><path id="sealPath" d="M110,110 m-84,0 a84,84 0 1,1 168,0 a84,84 0 1,1 -168,0"/></defs>
+            <circle cx="110" cy="110" r="104" class="sl sl--a"/>
+            <circle cx="110" cy="110" r="66" class="sl sl--b"/>
+            <g class="seal__ring"><text><textPath href="#sealPath" startOffset="0">GARANTÍA · PAGO INMEDIATO · ENVÍO A TODO CHILE · </textPath></text></g>
+            <text x="110" y="120" class="seal__mono">CT</text>
+          </svg>
+        </div>
+        <div class="warranty__text">
+          <p class="eyebrow">Compra tranquilo</p>
+          <h2>Cada pieza, <em>con respaldo</em></h2>
+          <ul class="checks">
+            <li><svg class="ic"><use href="#i-shield"/></svg><div><b>Garantía incluida</b><span>El plazo se informa por pieza al reservarla.</span></div></li>
+            <li><svg class="ic"><use href="#i-box"/></svg><div><b>Caja y documentación original</b><span>Cuando la pieza la tiene, va detallado en la ficha.</span></div></li>
+            <li><svg class="ic"><use href="#i-card"/></svg><div><b>Tarjeta de crédito en 12 cuotas</b><span>También transferencia. Consulta por otros medios de pago.</span></div></li>
+            <li><svg class="ic"><use href="#i-truck"/></svg><div><b>Envíos a todo Chile</b><span>Starken, Chilexpress o Blue Express, con seguimiento.</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="wrap">
+        <div class="cta-band">
+          <div>
+            <p class="eyebrow">Hablemos</p>
+            <h2>Encuentra la pieza que buscas</h2>
+            <p class="lead">Escríbenos por WhatsApp y te respondemos con disponibilidad, precio y fotos adicionales del reloj.</p>
+          </div>
+          <a class="btn btn--wa btn--lg" id="contactWaBtn" target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg> Escríbenos por WhatsApp</a>
+        </div>
+        <ul class="contact-list">
+          <li><span class="tile tile--sm"><svg class="ic"><use href="#i-chat"/></svg></span><div><small>WhatsApp</small><a id="contactWa" target="_blank" rel="noopener">Consultas y reservas</a></div></li>
+          <!-- SI:INSTAGRAM --><li><span class="tile tile--sm"><svg class="ic"><use href="#i-ig"/></svg></span><div><small>Instagram</small><a href="https://www.instagram.com/%%INSTAGRAM%%/" target="_blank" rel="noopener">@%%INSTAGRAM%%</a></div></li><!-- /SI:INSTAGRAM -->
+          <li><span class="tile tile--sm"><svg class="ic"><use href="#i-pin"/></svg></span><div><small>Ubicación</small><span class="val">Concepción · Biobío</span></div></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="brand">
+        <img src="img/logo.jpg" alt="" width="44" height="44">
+        <span>%%MARCA_A%% <em>%%MARCA_B%%</em></span>
+      </div>
+      <p>%%RUBRO%% · Concepción, Biobío · Compra, venta y consignación</p>
+      <a class="btn btn--wa btn--sm" id="footerWa" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </footer>
+
+  <a class="wa-float" id="floatWa" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg class="ic"><use href="#i-chat"/></svg></a>
+
+  <!-- FICHA DE PRODUCTO -->
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel pm" role="dialog" aria-modal="true" aria-labelledby="pmName">
+      <button class="modal__close" type="button" data-close aria-label="Cerrar">×</button>
+      <div class="pm__media">
+        <div class="pm__frame">
+          <img id="pmImg" src="img/logo.jpg" alt="">
+          <button class="pm__nav pm__nav--prev" type="button" data-step-photo="-1" aria-label="Foto anterior">‹</button>
+          <button class="pm__nav pm__nav--next" type="button" data-step-photo="1" aria-label="Foto siguiente">›</button>
+        </div>
+        <div class="pm__thumbs" id="pmThumbs"></div>
+      </div>
+      <div class="pm__info">
+        <p class="eyebrow" id="pmCat"></p>
+        <h2 id="pmName"></h2>
+        <p class="pm__price" id="pmPrice"></p>
+        <p class="pm__desc" id="pmDesc"></p>
+        <div id="pmSizesWrap">
+          <p class="pm__label">Variante <span id="pmSizeHint"></span></p>
+          <div class="pm__sizes" id="pmSizes" role="radiogroup" aria-label="Elige la variante"></div>
+        </div>
+        <div class="pm__qty">
+          <p class="pm__label">Cantidad</p>
+          <div class="qty qty--lg">
+            <button type="button" data-qty="-1" aria-label="Menos">−</button>
+            <span id="pmQty">1</span>
+            <button type="button" data-qty="1" aria-label="Más">+</button>
+          </div>
+        </div>
+        <p class="form__error" id="pmError" hidden></p>
+        <button class="btn btn--gold btn--block btn--lg" type="button" id="pmAdd"><svg class="ic"><use href="#i-bag"/></svg> Reservar esta pieza</button>
+        <a class="btn btn--line btn--block" id="pmAsk" target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg> Consultar por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESERVA + PEDIDO -->
+  <aside class="bag" id="bag" aria-hidden="true">
+    <div class="bag__backdrop" data-close-bag></div>
+    <div class="bag__panel" role="dialog" aria-modal="true" aria-labelledby="bagTitle">
+      <header class="bag__head">
+        <h2 id="bagTitle">Tu reserva</h2>
+        <button class="modal__close" type="button" data-close-bag aria-label="Cerrar">×</button>
+      </header>
+      <div class="bag__body">
+        <div class="bag__empty" id="bagEmpty">
+          <svg class="ic"><use href="#i-bag"/></svg>
+          <p>Aún no has reservado ninguna pieza. Elige un reloj de la colección o escribe lo que buscas aquí abajo.</p>
+          <a class="btn btn--line btn--sm" href="#coleccion" data-close-bag>Ver colección</a>
+        </div>
+        <ul class="bag__list" id="bagList"></ul>
+
+        <div class="coupon" id="couponBox" hidden>
+          <div id="cuponForm">
+            <label class="pm__label" for="fCupon">¿Tienes un código de descuento?</label>
+            <div class="coupon__row">
+              <input id="fCupon" type="text" placeholder="Ej: CLOCK10" autocomplete="off" autocapitalize="characters" spellcheck="false">
+              <button class="btn btn--line btn--sm" type="button" id="cuponBtn">Aplicar</button>
+            </div>
+          </div>
+          <div class="coupon__status" id="cuponStatus" role="status" aria-live="polite" hidden></div>
+        </div>
+
+        <form id="orderForm" class="checkout" novalidate>
+          <details class="encargo" id="encargoBox">
+            <summary>¿Buscas otra marca o modelo? <strong>Pídelo aquí</strong></summary>
+            <textarea id="fEncargo" rows="2" placeholder="Ej: Rolex Submariner · Omega Speedmaster · Cartier Santos"></textarea>
+          </details>
+
+          <p class="checkout__step"><span>1</span> Tus datos</p>
+          <label>Nombre y apellido
+            <input id="fNombre" type="text" autocomplete="name" placeholder="Ej: Matías Soto">
+          </label>
+
+          <p class="checkout__step"><span>2</span> Entrega</p>
+          <div class="seg seg--3" role="radiogroup" aria-label="Tipo de entrega">
+            <label><input type="radio" name="entrega" value="concepcion" checked><span><svg class="ic"><use href="#i-pin"/></svg>Concepción</span></label>
+            <label><input type="radio" name="entrega" value="retiro"><span><svg class="ic"><use href="#i-store"/></svg>Retiro</span></label>
+            <label><input type="radio" name="entrega" value="envio"><span><svg class="ic"><use href="#i-truck"/></svg>Envío</span></label>
+          </div>
+
+          <label data-sector>Sector o punto de entrega <small>(opcional)</small>
+            <input id="fSector" type="text" placeholder="Ej: Barrio Universitario, Mall del Trébol…">
+          </label>
+
+          <div class="ship" data-envio hidden>
+            <div class="row">
+              <label>Región
+                <select id="fRegion"><option value="">Elige tu región</option></select>
+              </label>
+              <label>Comuna
+                <select id="fComuna" disabled><option value="">Primero la región</option></select>
+              </label>
+            </div>
+            <p class="pm__label">Empresa de envío</p>
+            <div class="seg couriers" id="fCourier" role="radiogroup" aria-label="Empresa de envío"></div>
+            <div class="seg seg--2" role="radiogroup" aria-label="Modalidad de envío">
+              <label><input type="radio" name="modo" value="sucursal" checked><span><svg class="ic"><use href="#i-store"/></svg>Retiro en sucursal</span></label>
+              <label><input type="radio" name="modo" value="domicilio"><span><svg class="ic"><use href="#i-home"/></svg>A domicilio</span></label>
+            </div>
+            <label data-modo="sucursal">Sucursal donde retiras
+              <input id="fSucursal" type="text" placeholder="Nombre o dirección de la sucursal">
+            </label>
+            <a class="locator" id="fLocator" data-modo="sucursal" target="_blank" rel="noopener"></a>
+            <label data-modo="domicilio" hidden>Dirección de entrega
+              <input id="fDireccion" type="text" autocomplete="street-address" placeholder="Calle, número, depto">
+            </label>
+          </div>
+
+          <p class="checkout__step"><span>3</span> Pago</p>
+          <div class="seg seg--3" role="radiogroup" aria-label="Medio de pago">
+            <label><input type="radio" name="pago" value="transferencia" checked><span>Transferencia</span></label>
+            <label data-local><input type="radio" name="pago" value="efectivo"><span>Efectivo</span></label>
+            <label><input type="radio" name="pago" value="tarjeta"><span>Crédito 12 cuotas</span></label>
+          </div>
+
+          <label>Comentario <small>(opcional)</small>
+            <input id="fNota" type="text" placeholder="Ej: horario para coordinar, consulta por la garantía…">
+          </label>
+
+          <div class="preview">
+            <p class="preview__label">Así llegará tu mensaje</p>
+            <div id="msgPreview"></div>
+          </div>
+        </form>
+      </div>
+      <footer class="bag__foot">
+        <div class="bag__sums" id="bagSums" hidden></div>
+        <div class="bag__total"><span id="bagTotalLabel">Total</span><strong id="bagTotal">$0</strong></div>
+        <p class="bag__hint" id="bagHint"></p>
+        <p class="form__error" id="formError" hidden></p>
+        <button class="btn btn--wa btn--block btn--lg" type="submit" form="orderForm"><svg class="ic"><use href="#i-chat"/></svg> Enviar reserva por WhatsApp</button>
+        <p class="bag__legal">La reserva se confirma por WhatsApp. Las piezas son únicas: te confirmamos disponibilidad al instante.</p>
+      </footer>
+    </div>
+  </aside>
+
+  <button class="fab" type="button" data-open-bag hidden><svg class="ic"><use href="#i-bag"/></svg><span id="fabLabel">Mi reserva</span></button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

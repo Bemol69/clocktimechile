@@ -1,0 +1,10 @@
+{
+  "nombre": "Panerai",
+  "productos": [
+    "panerai-luminor-1950-equation-of-time",
+    "panerai-radiomir-bronzo",
+    "panerai-radiomir-california-3-days"
+  ],
+  "orden": 10,
+  "visible": true
+}

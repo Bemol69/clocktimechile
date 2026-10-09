@@ -1,0 +1,20 @@
+{
+  "franja1": {
+    "frases": [
+      "Pago inmediato",
+      "Garantía en cada pieza",
+      "Crédito hasta 12 cuotas",
+      "Compramos tu reloj",
+      "Envíos a todo Chile",
+      "Consignación"
+    ],
+    "velocidad": "normal"
+  },
+  "franja2": {
+    "mostrar": false,
+    "frases": [
+      "Nuevo ingreso"
+    ],
+    "velocidad": "lenta"
+  }
+}
